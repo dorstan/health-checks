@@ -43,6 +43,7 @@ def main():
         (check_reboot, "Pending Reboot"), 
         (check_root_full, "Root partition full"),
         (check_no_network, "No working network."),
+        (check_cpu_constraint, "Fails to resolve Google URL.")
     ]
 
     everything_ok = True
